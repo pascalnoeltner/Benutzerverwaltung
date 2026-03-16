@@ -1,0 +1,14 @@
+/home/pjn/Benutzerverwaltung/bin/Debug/net10.0/Benutzerverwaltung
+/home/pjn/Benutzerverwaltung/bin/Debug/net10.0/Benutzerverwaltung.deps.json
+/home/pjn/Benutzerverwaltung/bin/Debug/net10.0/Benutzerverwaltung.runtimeconfig.json
+/home/pjn/Benutzerverwaltung/bin/Debug/net10.0/Benutzerverwaltung.dll
+/home/pjn/Benutzerverwaltung/bin/Debug/net10.0/Benutzerverwaltung.pdb
+/home/pjn/Benutzerverwaltung/obj/Debug/net10.0/Benutzerverwaltung.GeneratedMSBuildEditorConfig.editorconfig
+/home/pjn/Benutzerverwaltung/obj/Debug/net10.0/Benutzerverwaltung.AssemblyInfoInputs.cache
+/home/pjn/Benutzerverwaltung/obj/Debug/net10.0/Benutzerverwaltung.AssemblyInfo.cs
+/home/pjn/Benutzerverwaltung/obj/Debug/net10.0/Benutzerverwaltung.csproj.CoreCompileInputs.cache
+/home/pjn/Benutzerverwaltung/obj/Debug/net10.0/Benutzerverwaltung.dll
+/home/pjn/Benutzerverwaltung/obj/Debug/net10.0/refint/Benutzerverwaltung.dll
+/home/pjn/Benutzerverwaltung/obj/Debug/net10.0/Benutzerverwaltung.pdb
+/home/pjn/Benutzerverwaltung/obj/Debug/net10.0/Benutzerverwaltung.genruntimeconfig.cache
+/home/pjn/Benutzerverwaltung/obj/Debug/net10.0/ref/Benutzerverwaltung.dll

@@ -12,3 +12,4 @@
 /home/pjn/Benutzerverwaltung/obj/Debug/net10.0/Benutzerverwaltung.pdb
 /home/pjn/Benutzerverwaltung/obj/Debug/net10.0/Benutzerverwaltung.genruntimeconfig.cache
 /home/pjn/Benutzerverwaltung/obj/Debug/net10.0/ref/Benutzerverwaltung.dll
+/home/pjn/Benutzerverwaltung/obj/Debug/net10.0/Benutzerverwaltung.sourcelink.json

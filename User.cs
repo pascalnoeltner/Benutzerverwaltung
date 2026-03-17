@@ -1,22 +1,30 @@
 public class User
 {
-    private int Id;
-    private string Username;
-    private string Passwort;
-    private string Email;
-    private string Role;
-    private bool isLocked;
+    public int Id { get; set; }
+    public string Username { get; set; }
+    public string Password { get; set; }
+    public string Email { get; set; }
+    public string Role { get; set; }
+    public bool IsLocked { get; set; }
 
-    public User(int Id, string Username, string Passwort, string Email,
-                string Role, bool isLocked)
+    public User(int id, string username, string password, string email,
+                string role, bool isLocked)
     {
-        this.Id = Id;
-        this.Username = Username;
-        this.Passwort = Passwort;
-        this.Email = Email;
-        this.Role = Role;
-        this.isLocked = isLocked;
+        Id = id;
+        Username = username;
+        Password = password;
+        Email = email;
+        Role = role;
+        IsLocked = isLocked;
     }
 
-    
+    public override string ToString()
+    {
+        return $"Benutzer: {Username}" +
+            $"\nPasswort: {Password}" +
+            $"\nEmail: {Email}" +
+            $"\nRole: {Role}" +
+            $"\nIsLocked: {IsLocked}";
+
+    }
 }

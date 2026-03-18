@@ -1,3 +1,5 @@
+namespace Benutzerverwaltung;
+
 public class User
 {
     public int Id { get; set; }
@@ -24,7 +26,7 @@ public class User
             $"\nPasswort: {Password}" +
             $"\nEmail: {Email}" +
             $"\nRole: {Role}" +
-            $"\nIsLocked: {IsLocked}";
+            $"\nIsLocked: {(IsLocked ? "Ja" : "Nein")}";
 
     }
 }

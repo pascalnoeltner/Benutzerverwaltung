@@ -1,8 +1,22 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using Benutzerverwaltung;
+
+
 List<User> UserListe = new List<User>();
 
-bool on = true;
+void anzeigeUser()
+{
+    foreach(User user in UserListe)
+    {
+        Console.WriteLine(user.ToString());
+
+        if (UserListe.Count > 1)
+        {
+            Console.WriteLine(new string('*', 42));
+        }
+    }
+}
 
 void erstelleUser()
 {
@@ -10,6 +24,8 @@ void erstelleUser()
     int anzahl = Convert.ToInt32(Console.ReadLine());
     for (int i = 0; i < anzahl; i++)
     {
+        int Id = UserListe.Length;
+
         Console.WriteLine("Bitte geben Sie den Benutzername ein: ");
         string Username = Console.ReadLine();
 
@@ -19,9 +35,12 @@ void erstelleUser()
         Console.WriteLine("Bitte geben Sie die Email ein: ");
         string Email = Console.ReadLine();
 
-        
+        UserListe.Add(new User(1, Username, Password, Email, "User", false));
+ 
     }
 }
+
+bool on = true;
 
 while (on)
 {
@@ -38,8 +57,10 @@ while (on)
         switch (choice)
         {
             case 1:
+                anzeigeUser();
             break;
             case 2:
+                erstelleUser();
             break;
             case 3:
             break;
